@@ -1,11 +1,17 @@
 # kadl_pcss
 
 
-
-
-
 ## Dataset
-We reorganized the data in the Rellis-3D dataset according to the format of Semantickitti.
+
+<p align="center">
+   <img src="./fig/fig2.png" width="70%"> 
+</p>
+<p align="center">
+   <img src="./fig/fig1.png" width="70%"> 
+</p>
+
+We reorganized the data in the Rellis-3D dataset according to the format of Semantickitti.  To unify the target categories in the scenes,
+we remap the classes in the above two datasets into Road, Obstacle, Neutral area, and Others.
 
 Rellis-3D:https://github.com/unmannedlab/RELLIS-3D
 
@@ -21,8 +27,11 @@ New Seq with Semantickitti format  |33 |34|35|36|37|
 
 
 ### Semantickitti + Rellis-3D
-The original ".bin" files are stored in the folder **os1_cloud_node_kitti_bin** in Rellis-3D; ".label" files 
-were remade by us with the point cloud semantic labeling tool(https://github.com/jbehley/point_labeler).
+The original ".bin" files are stored in the folder **os1_cloud_node_kitti_bin** in Rellis-3D; 
+
+".label" files were remade by us using the point cloud semantic labeling tool(https://github.com/jbehley/point_labeler).
+
+
 ```
 ./
 ├──sequences
@@ -34,13 +43,12 @@ were remade by us with the point cloud semantic labeling tool(https://github.com
         |   |	├── 000000.bin
         |   |	├── 000001.bin
         |   |	└── ...
-        │   └── labels/    #   
+        │   └── labels/          
         |       ├── 000000.label
         |       ├── 000001.label
         |       └── ...
         ├── ... # new sequence from  Rellis-3D     
-	      └── 37/ # new sequence from  Rellis-3D     
+        └── 37/ # new sequence from  Rellis-3D     
 ```
-
 
 ## Code
