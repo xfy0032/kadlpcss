@@ -29,7 +29,8 @@ New Seq with Semantickitti format  |33 |34|35|36|37|
 ### Semantickitti + Rellis-3D
 The original ".bin" files are stored in the folder **os1_cloud_node_kitti_bin** in Rellis-3D; 
 
-".label" files were remade by us using the point cloud semantic labeling tool(https://github.com/jbehley/point_labeler).
+".label" files were remade by us using the point cloud semantic labeling tool(https://github.com/jbehley/point_labeler). 
+And you can download these files from Baidu online disk.
 
 
 ```
