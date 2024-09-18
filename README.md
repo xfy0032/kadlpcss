@@ -1,6 +1,6 @@
 # kadl_pcss
 
-This repository contains the code and supplementary materials for the paper "**Domain-Adaptive Point Cloud Semantic Segmentation from Urban to Off-road Scenes Based on Knowledge-Augmented Deep Learning**" presented at ITSC 2024."
+This repository contains the code and supplementary materials for the paper "**Domain-Adaptive Point Cloud Semantic Segmentation from Urban to Off-road Scenes Based on Knowledge-Augmented Deep Learning**" presented at ITSC 2024.
 
 ## Dataset
 
