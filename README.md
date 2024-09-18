@@ -1,5 +1,6 @@
 # kadl_pcss
 
+This repository contains the code and supplementary materials for the paper "**Domain-Adaptive Point Cloud Semantic Segmentation from Urban to Off-road Scenes Based on Knowledge-Augmented Deep Learning**" presented at ITSC 2024."
 
 ## Dataset
 
@@ -10,7 +11,7 @@
    <img src="./fig/fig1.png" width="70%"> 
 </p>
 
-We reorganized the data in the Rellis-3D dataset according to the format of Semantickitti.  To unify the target categories in the scenes,
+We reorganized the data in the Rellis-3D dataset according to the Semantickitti format.  To unify the target categories in the scenes,
 we remap the classes in the above two datasets into Road, Obstacle, Neutral area, and Others.
 
 Rellis-3D:https://github.com/unmannedlab/RELLIS-3D
@@ -29,8 +30,8 @@ New Seq with Semantickitti format  |33 |34|35|36|37|
 ### Semantickitti + Rellis-3D
 The original ".bin" files are stored in the folder **os1_cloud_node_kitti_bin** in Rellis-3D; 
 
-".label" files were remade by us using the point cloud semantic labeling tool(https://github.com/jbehley/point_labeler). 
-And you can download these files from Baidu online disk.
+We remade ".label" files using the point cloud semantic labeling tool(https://github.com/jbehley/point_labeler). 
+And you can download these files from the Baidu online disk.
 
 
 ```
@@ -53,4 +54,4 @@ And you can download these files from Baidu online disk.
 ```
 
 ## Code
-Code coming soon!
+Code is coming soon!
